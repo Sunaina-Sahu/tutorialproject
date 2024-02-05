@@ -48,6 +48,7 @@ p{
     max-width: 1180px;
     margin-inline: auto;
     padding: var(---padding-inline-section);
+    overflow: hidden;
   }
   .flex{
     display: flex;
@@ -111,6 +112,9 @@ p{
 .nav-links ul {
     justify-content: end;
     gap: 40px;
+}
+.nav-toggle{
+  display:none;
 }
 /*header*/
 header{
